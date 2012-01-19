@@ -1,0 +1,163 @@
+/*Photos ***************/
+.photo_thumbs_container {
+	padding:5px;
+	
+}
+.photo_thumbs_container img {
+padding:3px;
+margin:3px;
+border:#999 1px solid;
+}
+
+.photo_thumbs_container img:hover {
+
+border:#666 1px solid;
+}
+
+.photo_thumbs_container p {
+margin:0px 0px 5px 0px;
+padding:3px;
+font-size:11px;
+color:#666666;
+border-bottom:#999999 1px dashed;
+}
+
+.photo_display_container {
+width:620px;
+margin:0px auto 0px auto;
+text-align:center;
+}
+
+.photo_display_container img {
+padding:3px;
+margin:3px;
+border:#0066CC 1px solid;
+}
+
+.photo_caption {
+padding:5px;
+font-size:11px;
+color:#666666;
+text-align:center;
+}
+
+.photo_prevnext {
+text-align:center;
+font-size:15px;
+font-weight:bold;
+padding:5px;
+margin:5px 0px 0px 0px;
+}
+
+.photo_prevnext a {
+text-decoration:none;
+color:#009900;
+display:block;
+width:200px;
+margin:0px auto 0px auto;
+}
+
+.photo_prevnext a:hover {
+text-decoration:underline;
+}
+
+.photo_report {
+text-align:center;
+padding:5px;
+margin:5px auto 0px auto;
+width:300px;
+border:#CCCCCC 1px solid;
+}
+
+.photo_report a {
+text-decoration:none;
+color:#FF9900;
+font-weight:bold;
+}
+
+.photo_report a:hover {
+text-decoration:underline;
+}
+
+.reported {
+font-weight:bold;
+color:#FF0000;
+}
+
+.photo_edit_container {
+
+}
+
+.photo_edit_container img {
+padding:3px;
+margin:3px;
+border:#0066CC 1px solid;
+}
+
+.photo_edit_container strong {
+display:block;
+border:#cccccc 1px solid;
+padding:3px;
+text-align:center;
+color:#000;
+}
+
+.photo_edit_container p {
+margin:0px 0px 5px 0px;
+padding:3px;
+font-size:11px;
+color:#666666;
+border-bottom:#999999 1px dashed;
+}
+
+.photo_upload_container {
+margin:5px 0px 0px 0px;
+padding:5px;
+}
+
+.photo_edit_item {
+margin:0px 0px 5px 0px;
+padding:0px;
+border:#cccccc 0px dashed;
+font-size:11px;
+}
+
+.photo_edit_buttons a {
+color:#F00;
+}
+
+.photo_edit_buttons a:hover {
+color:#930;
+}
+
+.main_picture {
+display:block;
+text-decoration:none;
+padding:2px;
+margin:5px;
+border:#FF0000 1px solid;
+color:#FF0000;
+}
+.photo_upload_container strong {
+display:block;
+padding:5px 0px 0px 0px;
+}
+.photo_upload_container ol {
+padding:0px;
+margin:5px 0px 5px 30px;
+
+}
+
+.photo_upload_container li {
+padding:1px;
+color:#666666;
+font-size:11px;
+}
+
+.new_pic_comments {
+	font-weight:bold;
+}
+.new_pic_comments_marker {
+	color:#F00;
+	font-size:9px;
+}

@@ -1,0 +1,12 @@
+RewriteEngine on
+ErrorDocument 404 http://www.go4film.com/
+RewriteBase /go4film/
+RewriteCond %{REQUEST_URI} ^secure_system_folder.*
+RewriteRule ^(.*)$ /index.php?/$1 [L]
+RewriteCond %{REQUEST_URI} ^secure_application_folder.*
+RewriteRule ^(.*)$ /index.php?/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+RewriteCond $1 !^(index\.php|images|img|css|js|robots\.txt)
+RewriteRule ^rss rss/rss.php [L]
